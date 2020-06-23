@@ -21,7 +21,7 @@ pipeline {
 
     stage('post build') {
       steps {
-        sh '''#!/bin/sh
+        sh '''
 echo "Hello world"'''
       }
     }

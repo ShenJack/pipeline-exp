@@ -22,9 +22,7 @@ pipeline {
     stage('post build') {
       steps {
         bat 'echo Hello world'
-        helloWorld 'hey'
       }
     }
-
   }
 }

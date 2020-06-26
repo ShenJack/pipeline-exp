@@ -22,7 +22,9 @@ pipeline {
     stage('post build') {
       steps {
         bat 'echo Hello world'
+        greet(what: 'it\'s me', whatNow: 'do so')
       }
     }
+
   }
 }

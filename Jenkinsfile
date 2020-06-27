@@ -20,9 +20,9 @@ pipeline {
     }
 
     stage('post build') {
+      agent any
       steps {
-        bat 'echo Hello world'
-        greet(what: 'it\'s me', whatNow: 'do so')
+        echo '123'
       }
     }
 

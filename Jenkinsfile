@@ -23,6 +23,7 @@ pipeline {
       agent any
       steps {
         echo '123'
+        uwatest()
       }
     }
 
